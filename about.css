@@ -1,0 +1,23 @@
+.navbar {
+    Display: flex;
+    flex-direction: column;
+    Justify-content: space-between;
+    Align-items: center;
+    Padding: 25px 30px 5px;
+    Background: #fff;
+    Box-shadow: 0 2px 15px rgba(0,0,0,0.03);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookLand – Online Bookstore</title>
+    <link rel="stylesheet" href="ready.css">
+</head>
+<body>
+
+    <nav class="navbar" id="top">
+            <span style="font-size: 30px;"><b style="font-size:70px;color:rgb(0, 186, 227);">G</b><sup style="font-size: 30px;color:rgb(0, 186, 227)">et</sup><span style="margin-left: -20px;">ready</span></span>
+        </div>
+
+            <div class="user-profile">
+                <img src="pictures\profile.gif" alt="User">
+                <div class="user-info">
+                    <span>Kofi</span>
+                    <small>Admin</small>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br>
+
+<div class="setch">
+    <span><img src="pictures\idea.gif" alt="light" height="30px" width="35"></span> <i class="fa-solid fa-chevron-down"></i>&ensp;
+    <div class="search-bar">
+         
+            <div class="search-dropdown">
+                <span>Menu</span> <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <input type="text" placeholder="Search here...">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+</div>
+
+
+    <header class="hero">
+        <div class="container hero-container">
+            
+            <div class="hero-content">
+                <br>
+                <span class="tag">Procrastination is the enermy Start now</span>
+                <h1 class="book-title">Revise and Rewind</h1>
+                <p class="author">Kofi E.K.K <span class="genre">Studying & Strategy</span></p>
+                
+                <p class="description">
+                    Get your past exam papers here for free.Stop Procrastinating ,step out of your comfortzone<b style="color: red;">&star;</b>.
+                </p>
+
+                <div class="price-box">
+                    <span class="old-price">$12.0</span>
+                    <span class="discount-tag">-100%</span>
+                    <br>
+                
+                    <span class="current-price">Free!</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#here"><button class="btn btn-primary">Get Past Exam Papers.</button></a>
+                    <a href="/about.html"> <button class="btn btn-outline">About Us</button></a>
+                </div>
+            </div>
+
+            <div class="hero-image-area">
+                <div class="blob-bg"></div>
+            
+
+                 <div class="slideshow-container">
+        <div class="slide">
+            <img src="pictures\bright-cardiac-cardiology-care.jpg" alt="Image 1">
+            <div class="text"></div>
+        </div>
+        <div class="slide">
+            <img src="pictures\Geiger-counter-768x570.jpg" alt="Image 2">
+            <div class="text"></div>
+        </div>
+        <div class="slide">
+            <img src="pictures\doctor-surgeon-operation-instruments.jpg" alt="Image 3">
+            <div class="text"></div>
+        </div>
+
+    </div>
+
+
+
+
+    <script>
+        // for two
+        let slideIndex = 1;
+let slides = document.getElementsByclass("slide");
+showSlides(slideIndex);
+function plusSlide(n) {
+    showSlides(slideIndex += n);
+}
+function showSlides(n) {
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.transform = `translateX(${(i - slideIndex + 1) * 100}%)`;
+    }
+}
+// Automatic slideshow
+setInterval(() => {
+    plusSlide(1);
+}, 3000);
+    </script>
+
+                 
+
+
+ <div class="floating-card">
+                    <div class="mini-book-cover">
+                        <i class="fa-solid fa-book"></i>
+                    </div>
+                    <div class="mini-card-info">
+                        <h4>Study Smart</h4>
+                        <p>Kofi Ephram</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <!-- <span class="mini-price">Free!</span> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    
+
+
+
+<div style="display: flex; flex-direction: row;">
+    <div class="faculties" id="here">
+       
+        <div class="faculty">
+             <br>
+            <button class="post-btn">UNDERGRADUATE PROGRAMS</button>
+            <br>
+            
+            <button class="faculty-btn" onclick="toggleImage();toggleImage2()" >Agriculture Environment & Food Systems</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#">Bcs Honours Value Chain Development And Agricultural Marketing - HVCDAM</a></li>
+                    <li><a href="#">BSc Honours Agricultural Development and Communication Systems -HDCS</a></li>
+                    <li><a href="#">BSc Honours Agricultural and Natural Resource Economics-HANRE</a></li>
+                    <li><a href="#">BSc Honours Agricultural Informatics-HAI</a></li>
+                    <li><a href="#">BSc Honours Plant Production Science  & Technology-HPPST</a></li>
+                    <li><a href="#">BSc Honours Horticulture and Plantation Sciences-HHPS</a></li>
+                    <li><a href="#">BSc Honours Crop Improvement and Seed Systems-HCISS</a></li>
+                    <li><a href="#">BSc Honours Livestock Production and Nutrition Sciences-HLPNS</a></li>
+                    <li><a href="#">BSc Honours Livestock Improvement and Genetic Conservation-HLIGC</a></li>
+                    <li><a href="#">BSc Honours Rangeland Science and Livestock Production Ecology-HRSLPE</a></li>
+                    <li><a href="#">BSc Honours Meat and Dairy Sciences and Technology-HMDST</a></li>
+                    <li><a href="#">BSc Honours Soil Science and Land Management-HSSLM</a></li>
+                    <li><a href="#">BSc Honours Water and Waste Management Systems-HWWMS</a></li>
+                    <li><a href="#">BSc Honours Agricultural and Environmental Monitoring Systems-HAEMS</a></li>
+                    <li><a href="#">BSc Honours Climate Science Resilience and Livelihoods-HCSRL</a></li>
+                    <li><a href="#">BSc Honours Applied Environmental Sciences and Technology-HAEST</a></li>
+                    <li><a href="#">BSc Honours Agricultural Equipment Design and  Manufacturing Systems-
+HAEDMS</a></li>
+                    <li><a href="#">BSc Honours Food Engineering-HFE</a></li>
+                    <li><a href="#">BSc Honours Water Resources and Irrigation Engineering-HWRIE</a></li>
+                    <li><a href="#">BSc Honours Agricultural Processing Plant Design and Systems 
+Engineering-HAPPDSE</a></li>
+
+
+                   
+                </ul>
+            </div>
+        </div>
+
+        <div class="faculty">
+            <button class="faculty-btn">ARTS & HUMANITIES</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#">BA Honours Film Radio and Television Production - HFTRP</a></li>
+                    <li><a href="#">BA Honours Multi-Media Production - HMMP</a></li>
+                    <li><a href="#">BA Honours Media and Marketing Communication - HMMC</a></li>
+                    <li><a href="#">BA Honours African Musicology - HBAM</a></li>
+                    <li><a href="#">BA Honours Language Literature and Intercultural Communication HLLIE</a></li>
+                    <li><a href="#">BA Honours Multilingual Communication Translation and Interpretation HMCTI</a></li>
+                    <li><a href="#">BA Honours Multicultural Heritage and Tourism - HMHT</a></li>
+                    <li><a href="#">BA Honours Philosophy Ethics and Human Development - HPEHD</a></li>
+                    <li><a href="#">BA Honours Religion Leadership and Society - HRLDS</a></li>
+                    <li><a href="#">BA Honours African Heritage and Knowledge Systems - HAHKS</a></li>
+                     <li><a href="#">BA Honours Archaeological Sciences and Human Development - HASHD</a></li>
+                      <li><a href="#">BA Honours Digital Archival and Historical Information Management - 
+DAH</a></li>
+                       <li><a href="#">BA Honours Zimbabwean History and International Affairs - HIA</a></li>
+                        <li><a href="#">BA Honours Heritage and Economic History - BAHEH</a></li>
+                         <li><a href="#">BA Honours History of War and Security - HHWS</a></li>
+                          <li><a href="#">BA Honours Creative Designs,Animation and Motion Graphics-HCDA</a></li>
+                           <li><a href="#">BA Honours Journalism,Media and Broadcasting-HJMB</a></li>
+                            <li><a href="#">BA Honours Fine Arts-HFA</a></li>
+                             <li><a href="#">BA Honours Visual and performing Arts-HVPA</a></li>
+                             <li><a href="#">BA Honours Conflict peace Building and Social Transformation-HCPST</a></li>
+                             <li><a href="#">BA Honours Risk Reduction and Disaster Management - HRRDM</a></li>
+                             
+                </ul>
+            </div>
+        </div>
+
+        <div class="faculty">
+            <button class="faculty-btn">BUSINESS MANAGEMENT SCIENCES AND ECONOMICS</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#">BSc Honours Public Sector Accounting and Finance-HPSACCF</a></li>
+                    <li><a href="#">BSc Honours Forensic Accounting -HFORACC</a></li>
+                    <li><a href="#">BSc Honours Accounting and Finance-HACCN</a></li>
+                    <li><a href="#">BSc Honours Financial and Accounting Systems Development and Applications-HFCSDA</a></li>
+                    <li><a href="#">BSc Honours Fiscal Management-HFISMGT</a></li>
+                     <li><a href="#">BSc Honours Audit and Risk Management-HARMGT</a></li>
+                      <li><a href="#">BSc Honours Leisure and Hospitality Management -HLHM</a></li>
+                       <li><a href="#">BSc Honours Culinary Arts and Hotel Catering -HCAHC</a></li>
+                        <li><a href="#">BSc Honours Economic Tourism Development -HETD</a></li>
+                         <li><a href="#">BSc Honours Integrated Tourism Marketing and Internationalisation -HITMI</a></li>
+                          <li><a href="#">BSc Honours Business Enterprise Development-HBED</a></li>
+                           <li><a href="#">BSc Honours Human Capital Development Science-HCM</a></li>
+                            <li><a href="#">BSc Honours Business Management Systems Design and Applications-
+HBMSDA</a></li>
+                             <li><a href="#">BSc Honours Business Marketing Informatics-HBMI</a></li>
+                              <li><a href="#">BSc Digital Banking -HDBANK</a></li>
+                               <li><a href="#">BSc Honours Public Relations and Marketing-HPRM</a></li>
+                                <li><a href="#">BSc Honours Supply Chain Management -HSCM</a></li>
+                                 <li><a href="#">BSc Honours Economics and Development-HECD</a></li>
+                                  <li><a href="#">BSc Honours Business and Industrial Economics-HBIE</a></li>
+                                   <li><a href="#">BSc Honours Financial Economics and Trade-HFET</a></li>
+                                    <li><a href="#">BSc Honours Computational Economics-HCOE</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="faculty">
+            <button class="faculty-btn">COMPUTER ENGINEERING INFORMATICS COMMUNICATION</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#">BSc Hon Electronics and Telecommunications Engineering-HET</a></li>
+                    <li><a href="#">BSc. Honours Cyber Security and Forensic Auditing  HCF  </a></li>
+                    <li><a href="#">BSc Hons Network Engineering-HNE</a></li>
+                    <li><a href="#">BSc. Honours Data Science and Informatics-HDS</a></li>
+                    <li><a href="#">BSc Hons. Computer Engineering-HCE</a></li>
+                    <li><a href="#">BSc. Honours Hardware Engineering -HHE</a></li>
+                    <li><a href="#">BSc. Honours Software Engineering -HSE</a></li>
+                    <li><a href="#">BSc. Honours Computer Science-HCS</a></li>
+                    <li><a href="#">BSc. Honours Artificial Intelligence and Machine Learning-HAI</a></li>
+                    <li><a href="#">BSc. Honours Cloud Computing and Internet of Things-HCC </a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="faculty">
+            <button class="faculty-btn">MEDICINE & HEALTH SCIENCES</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#">BSc Hons in Audiology-(HAUD)</a></li>
+                    <li><a href="#">B. Pharmacy Hons. (HPM)</a></li>
+                    <li><a href="#">BSc Hons Clinical Pharmacology-HCP</a></li>
+                    <li><a href="#">BSc Physiotherapy Hons. (HPT) </a></li>
+                    <li><a href="#">BSc Hons Occupational and Environmental Health  (HOE)</a></li>
+                    <li><a href="#">BSc Hons Nursing Science (BSc Hons NS)</a></li>
+                    <li><a href="#">BSc Hons Forensic Medicine- HFM</a></li>
+                     <li><a href="#">BSc Medical Laboratory Sciences-HBMLS</a></li>
+                      <li><a href="#">Bachelor of Science Degree in Health Education and Health Promotion  BSc HEHP</a></li>
+                       <li><a href="#">BSc Hons. Radiography (Diagnosis) (BSc HRD) </a></li>
+                        <li><a href="#">BSc Hons Radiology Therapy-HRT</a></li>
+                         <li><a href="#">BSc (Hons) Degree in Optometry (BSHO)</a></li>
+                          <p>BSc Honours Biomedical Sciences BSc BMS (with pathways to) :</p>
+                         <li><a href="#"> a: Bachelor of Medicine and Bachelor of Surgery (MBChB)</a></li>
+                           <li><a href="#"> b: Bachelor of Dental Surgery (BDS)</a></li>
+                            <li><a href="#">BSc Honours Drug Discovery and Therapeutics-BSc HPS</a></li>
+                             <li><a href="#">BSc Occupational Therapy (HOT)</a></li>
+                              <li><a href="#">BSc Honours Biomedical Engineering-BSc HBIOENG</a></li>
+                               <li><a href="#">BSc Honours Medical Analytics and Informatics-BSc HMANI</a></li>
+                                <li><a href="#">BSc Honours Language and Speech Therapy-BSc HSLT</a></li>
+        
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="faculty">
+            <button class="faculty-btn">EDUCATION</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#">Bachelor of Education (Honours) Development and Management of Junior Education Schools-HDMJES </a></li>
+                  <p> Bachelor of Education (Honours) Junior Education -BEDHJE  With the following options : </p>
+<li><a href="#">1. Visual and Performing Arts </a></li>
+<li><a href="#">2. Languages </a></li>
+<li><a href="#">3. Social Science </a></li>
+<li><a href="#">4.Science </a></li>
+<li><a href="#"> 5.Mathematics</a></li>
+                    <li><a href="#">Bachelor of Education (Honours) Development and Management of Early 
+Childhood Schools-HDMES</a></li>
+                    <li><a href="#">Bachelor of Education (Honours) Early Childhood Development and Social Policy -HEDSP</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Bachelor of Education Honours Special Needs and Assistive Technologies -BEHSNAT</a></li>
+                    <li><a href="#">Bachelor of Science (Honours) Psycho-Social Guidance and Counselling -BSHBC</a></li>
+                    <li><a href="#">Bachelor of  Education (Honours) Curriculum Design and Instructional 
+Materials Production -BEHCIMP</a></li>
+                    <li><a href="#">Bachelor of Education (Honours) in Leadership and Governance-BEHLG</a></li>
+                     <li><a href="#">Bachelor of Education (Honours) Languages and Literature (Options: English)</a></li>
+                      <li><a href="#">Bachelor of Education (Honours) Civics Religion and Ethics ( Post diploma)</a></li>
+                       <li><a href="#">Bachelor of Education Honours History Heritage and Economic 
+Development (Post Diploma and Post 'A' Level)-BEHHHED</a></li>
+                        <li><a href="#">Bachelor of Science Honours  Science  Mathematics and Technology Education -HSMTE</a></li>
+                        <li><a href="#">Bachelor of Education (Honours) Science Education and Applications -HSEA</a></li>
+                        <li><a href="#">Bachelor of Education (Honours) Materials Production-HMP</a></li>
+                        <li><a href="#">Bachelor of Education ( Honours)  Peforming Arts and Heritage Education-
+HPAHE</a></li>
+
+<p>Bachelor of Education (Honours) Design and Technology-HADTE( With the following options : )</p>
+                        <li><a href="#">1. Agricultural Production and the Environment</a></li>
+                        <li><a href="#">2 The Built Environment</a></li>
+                        <li><a href="#">3 Visual Arts Design and Technology</a></li>
+                        <li><a href="#">4 Food Science 
+Human Nutrition and Technology</a></li>
+                        <li><a href="#">5 Gaming Animation and Digital Media</a></li>
+                        <li><a href="#">6.Geomology and Jewellery Design</a></li>
+                        <li><a href="#">7.Product Design and Technology </a></li>
+                        <li><a href="#">8 Textile Science ,Apparel Design and Technology</a></li>
+                        <li><a href="#">9. Family Consumer Science and Technology</a></li>
+                        
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="faculty">
+            <button class="faculty-btn">ENGINEERING AND 
+THE BUILT 
+ENVIRONMENT</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#">BSc Honours Civil Engineering-HENCENG</a></li>
+                    <li><a href="#">BSc Honours Construction Engineering and Quantity Surveying-HENCEQS</a></li>
+                    <li><a href="#">BSc Honours Chemical Engineering-HCE</a></li>
+                    <li><a href="#">BSc Honours Mining  and Geological Engineering-HMIE</a></li>
+                    <li><a href="#">BSc Honours Materials Technology and Engineering-HMTE</a></li>
+                    <li><a href="#">BSc Honours Metallurgical Engineering-HMET</a></li>
+                    <li><a href="#">BSc Honours Mechanical Engineering-HENMECH</a></li>
+                    <li><a href="#">BSc Industrial Engineering-HENIND</a></li>
+                    <li><a href="#">BSc Honours Mechatronics-HENMTR</a></li>
+                    <li><a href="#">BSc Honours Electrical and Electronic Engineering-HENELENG</a></li>
+                    <li><a href="#">BSc Honours Energy and Power Systems Engineering-HENPENG</a></li>
+                    <li><a href="#">BSc Honours Automotive Engineering-AUTO</a></li>
+                    <p>BSc Honours Aeronautical Engineering with the following options:</p>
+                    <li><a href="#"> 1. Avionics(AEROV)</a></li>
+                    <li><a href="#">2.Aviation Mechanics (AEROM)</a></li>
+                    <p>BSc Honours Geomatics Engineering  with the following options:</p>
+                    <li><a href="#">1.Geoinformatics Engineering -(HGEG)</a></li>
+                    <li><a href="#">Surveying (HGES)</a></li>
+                    <li><a href="#">BSc Honours Land Administration and Management-HLAM</a></li>
+                    <li><a href="#">BSc Honours Spatial Planning and Management-HSPM</a></li>
+                    <li><a href="#">BSc Honours Architecture-BARCH</a></li>
+                       <li><a href="#">BSc Honours Transport Systems Development-HTSD</a></li>
+                          <li><a href="#">BSc Honours Real Estate-HRE</a></li>
+                    
+
+                </ul>
+            </div>
+        </div>
+        <div class="faculty">
+            <button class="faculty-btn">LAW</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#">B. Laws Hons. (LLBS) </a></li>
+                    <li><a href="#">B.Substantive Laws-LLBSS</a></li>
+                    <li><a href="#">Building Environment and Energy Engineering</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="faculty">
+            <button class="faculty-btn">SCIENCE</button>
+            <div class="degree-programs">
+                <ul>
+                    <p>BSc Honours Biotechnology and Biochemistry (with options in :)</p>
+                    <li><a href="#">A:  Biotechnology and Molecular Biology-HBCBMB</a></li>
+                    <li><a href="#">B: Clinical Biochemistry and Toxicology;-HBCCBT</a></li>
+                    <li><a href="#">C: Genetics and Bioengineering;-HBCGBE</a></li>
+                    <li><a href="#">D: Immunology and Microbiology;-HBCBIM</a></li>
+                    <li><a href="#">E: Industrial and Environmental Microbiology;</a></li>
+                     <li><a href="#">F:  Plant Biochemistry and Medicinal Chemistry-HBCBPBMC</a></li>
+                      <li><a href="#">BSc Honours Biological Sciences-BZHSC</a></li>
+                       <li><a href="#">BSc Honours Forestry Rangeland and Wildlife Ecology-HFRWE</a></li>
+                        <li><a href="#">BSc Honours Biodiversity and Heritage Conservation-HBHC</a></li>
+                         <li><a href="#">BSc Honours Pollution and Environmental Chemistry - HPEC</a></li>
+                          <li><a href="#">BSc Honours Aquatic Science and Ecology-HASE</a></li>
+                          <p> BSc Honours Forensic Science  - HFSSC With specializations in either:</p>
+                           <li><a href="#">1.Forensic Biology and Forensic Biochemistry; </a></li>
+                            <li><a href="#">2.Forensic Biology and Forensic Chemistry; </a></li>
+                             <li><a href="#">3.Forensic Biochemistry and Forensic Chemistry</a></li>
+                              <li><a href="#">4.Forensic Physics and Forensic Chemistry</a></li>
+                               <li><a href="#">BSc Honours Industrial Chemistry-HICH</a></li>
+                                <li><a href="#">BSc Honours Pharmaceutical Chemistry-HPHC</a></li>
+                                 <li><a href="#">BSc Honours Geological Sciences- HGL</a></li>
+                                 <li><a href="#">BSc Honours Petroleum Chemistry and Technology - HPCT</a></li>
+                                 <li><a href="#">BSc Honours Geographical Information Science and Earth Observation - HGISEO</a></li>
+                                 <li><a href="#">BSc Honours Geospatial Intelligence - HGISINT</a></li>
+                                 <li><a href="#">BSc Honours Mathematics and Computational Science - MCH</a></li>
+                                  <li><a href="#">BSc Honours Actuarial Science - HASC</a></li>
+                                   <li><a href="#">	BSc Honours Financial Mathematics - HFM</a></li>
+                                    <li><a href="#">BSc Honours Data Science and Systems - HDSC</a></li>
+                                     <li><a href="#">BSc Applied Statistics - HASTS</a></li>
+                                     <li><a href="#">BSc Honours Nutrition and Dietetics- HND</a></li>
+                                     <li><a href="#">BSc Honours Food Science and Technology - HFST</a></li>
+                                     <li><a href="#">BSc Honours Space Science and Technology - HSST</a></li>
+                                     <li><a href="#">BSc Honours Climate Science and Meteorology - HMCS</a></li>
+                                     <li><a href="#">BSc Honours Industrial Physics - HIPH</a></li>
+                                      <li><a href="#">BSc Digital Disease Surveillance and Environmental Health-HDDSEH</a></li>
+                                       <li><a href="#">BSc Geography and Landscape Ecology-HGLE</a></li>
+                                        <li><a href="#">BSc Honours Materials Science - HMS</a></li>
+                                         <li><a href="#">BSc Honours Medical Physics - HMPH</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="faculty">
+            <button class="faculty-btn">SOCIAL AND 
+BEHAVIOURAL 
+SCIENCES</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#">BSc Honours Government and Public Management-GPM</a></li>
+                    <li><a href="#">BSc Honours Political Science and Diplomacy-POSD</a></li>
+                    <li><a href="#">BSc Honours Social Innovation and Community Development-BSCID</a></li>
+                    <li><a href="#">BSc Honours Smart Technology Applications and Community 
+Development-BSTACD</a></li>
+                    <li><a href="#">BSc Honours Industrial Sociology-HISO</a></li>
+                    <li><a href="#">BSc Honours Urbanisation and Social Amenities Development-HUD</a></li>
+                    <li><a href="#">BSc Honours Anthropology and Cultural Heritage -HACH</a></li>
+                      <li><a href="#">BSc Honours Criminology and Society-HCS</a></li>
+                        <li><a href="#">BSc Honours Community Education and Lifelong Learning-BCLL</a></li>
+                          <li><a href="#">BSc Honours Human Settlement Spatiality and Mobility-HSSM</a></li>
+                            <li><a href="#">BSc Honours Population Science and Applied Demography-HPSAD</a></li>
+                              <li><a href="#">BSc Honours Organisational and Industrial Psychology-HIOP</a></li>
+                                <li><a href="#">BSc Honours Child Development and Psychology-HCDP</a></li>
+                                  <li><a href="#">BSc Honours Developmental Psychology-HDP</a></li>
+                                    <li><a href="#">BSc Honours Forensic Psychology and Criminology-HFPC</a></li>
+                                      <li><a href="#">BSc Honours Veterinary Science Technology-HVST</a></li>
+                                        <li><a href="#">BSc Honours  Veterinary Science Therapeutics-HVSP</a></li>
+                                          <li><a href="#">BSc Honours Veterinary Science- BVSc</a></li>
+                                            <li><a href="#">BSc Transport Systems and Development-HTSD</a></li>
+                                            <li><a href="#">BSc Honours Social Work-HSW</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="faculty">
+            <button class="faculty-btn"> Vet Sciences</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#">BSc Honours  Veterinary Bioengineering-HVSB</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <!-- postgraduate -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        <div class="faculty">
+            <br>
+            <hr>
+            <hr>
+            <br>
+            <button class="post-btn">POSTGRADUATE PROGRAMS</button>
+            <br>
+            <br>
+            <div class="faculty">
+
+            <button class="faculty-btn">Agriculture Environment & Food Systems</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#">Mc Agricultural and Applied Economics (MAAE)</a></li>
+                    <li><a href="#">MSc Agricultural Administration Policy and Trade (MAAPT)</a></li>
+                    <li><a href="#"> MSc Agricultural Informatics and Data Analytics (MAIDA) </a>  </li>
+                     <li><a href="#">MSc Dairy Science & Technology (MDST)  </a></li>
+                      <li><a href="#"> MSc Animal Breeding & Biotechnology (MABB) </a></li>
+                       <li><a href="#"> MSc Animal Nutrition & Feed Production Sciences (MANFPS) </a></li>
+                        <li><a href="#">MSc Crop Protection and Postharvest Technology (MCPPT) </a> </li>
+                         <li><a href="#"> MSc Horticulture (MH)</a> </li>
+                          <li><a href="#">MSc Insect Science and Food Systems (MISFS)  </a></li>
+                           <li><a href="#"> MSc Plant Breeding and Biotechnology (MPBB) </a></li>
+                            <li><a href="#">MSc Plant Production Systems Design and Agronomy (MPPSDA) </a></li>
+                             <li><a href="#">MSc. Environmental Systems Engineering (MESE) </a></li>
+                              <li><a href="#">MSc. Industrial Ecology and Environmental Management (MIEEM) </a> </li>
+                               <li><a href="#">MSc. Climate Change and Food Systems (MCCFS)  </a></li>
+                                <li><a href="#">MSc. Soil Fertility and Plant Nutrition (MSFPN)  </a></li>
+                                  <li><a href="#">MSc. Soil Science and Production Ecology (MSSPE) </a> </li>
+                                    <li><a href="#">MSc. Agricultural Chemicals Development and Production Systems (MACDAPS)  </a> </li>
+                                      <li><a href="#">M.Sc. Food Processing Systems and Technology (MFPST)  </a></li>
+                                        <li><a href="#">M.Sc. Agricultural Equipment Manufacturing Systems (MAEMS)   </a></li>
+                                          <li><a href="#">M.Sc. Irrigation Systems Engineering (MISE)  </a> </li>
+
+
+
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="faculty">
+            <button class="faculty-btn">ARTS & HUMANITIES</button>
+            <div class="degree-programs">
+                <ul>
+                     <li><a href="#">Postgraduate Diploma Translation and Interpretation - PDTI    </a></li>
+                      <li><a href="#"> Master of Arts Linguistics - MLG    </a></li>
+                       <li><a href="#"> Master of Arts Language and Multicultural Communication (With Specialisation in
+Translation and Interpretation) - MATI  </a></li>
+                       <li><a href="#"> Master of Arts Language and Literature Production (English) - MLLPE  </a></li>
+                       <li><a href="#"> Master of Arts Language and Literature Production (African Languages) - MLLPA  </a></li>
+                       <li><a href="#"> Master of Arts in Economic History Heritage and Knowledge Systems - MEHKS  </a></li>
+                       <li><a href="#"> Master of Arts in Theology Church Leadership and Administration - MTLCA  </a></li>
+                       <li><a href="#">Master of Arts in Philosophy Practical Ethics and Human Development - MPEHD   </a></li>
+                       <li><a href="#"> Master of Arts Multi-Media Production Design Systems - MMPD  </a></li>
+                       <li><a href="#">Master of Arts Conflict, Peace and Governance - MCPG   </a></li>
+                       <li><a href="#">Master of Arts War and Security - MWS   </a></li>
+                       <li><a href="#"> Master of Arts Disaster Risk Reduction and Management Systems - MDRRMS  </a></li>
+                       <li><a href="#"> Master of Arts History and International Affairs - MAHI  </a></li>
+                       <li><a href="#"> Master of Arts Archaeological Forensics - MAF  </a></li>
+                       <li><a href="#"> Master of Arts in Communication and Media Studies-MCMS  </a></li>
+                       <li><a href="#">Master of Arts Heritage Resources Management and Materials Production - MHRMP   </a></li>
+
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="faculty">
+            <button class="faculty-btn">BUSINESS MANAGEMENT SCIENCES AND ECONOMICS</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#"> MSC HUMAN CAPITAL MANAGEMENT - MHCM  </a></li>
+                    <li><a href="#"> MSC SUPPLY CHAIN MANAGEMENT - MSCM  </a></li>
+                    <li><a href="#"> MSC INTERNATIONAL BUSINESS MANAGEMENT - MIBM  </a></li>
+                    <li><a href="#"> MSC STRATEGIC AND INTERNATIONAL MARKETING  - MSIM  </a></li>
+                    <li><a href="#">POSTGRADUATE DIPLOMA IN PUBLIC SECTOR ACCOUNTING AND FINANCE - DPSACCF   </a></li>
+                    <li><a href="#"> MSC CORPORATE FINANCE AND INVESTMENT MANAGEMENT - MCOPFIN </a></li>
+                    <li><a href="#"> MSC PUBLIC SECTOR FINANCE AND INVESTMENT MANAGEMENT - MPACFIN  </a></li>
+                    <li><a href="#"> MSC CORPORATE REPORTING AND GOVERNANCE - MREPGOV  </a></li>
+                    <li><a href="#">MSC COPRPORATE RECONSTRUCTION AND INSOLVENCY - MCOPINS   </a></li>
+                    <li><a href="#"> MSC MICROBUSINESS DEVELOPMENT AND DEVELOPMENT - MMICDEV  </a></li>
+                     <li><a href="#">MSC ACCOUNTING AND FINANCE - MACCFIN   </a></li>
+                    <li><a href="#">MSC ECONOMETRICS AND COMPUTATIONAL ECONOMICS - MESE   </a></li>
+                    <li><a href="#"> MSC MINERAL AND NATURAL RESOURCES ECONOMICS - MMNR  </a></li>
+                     <li><a href="#">MSC INDUSTRIAL ECONOMICS AND TRADE - MIET   </a></li>
+                    <li><a href="#">  MSC BUSINESS ECONOMICS AND INVESTMENT ANALYSIS - MBEIA </a></li>
+                    <li><a href="#">MSC TOURISM AND HOSPITALITY MANAGEMENT - MTHM   </a></li>
+                     <li><a href="#">MSC CULINARY ARTS AND TOURISM - MCAT   </a></li>
+                    <li><a href="#">MSC TOURISM INFOMATICS AND COMMNUNICATION - MTIC   </a></li>
+                    <li><a href="#"> MSC TOURISM INDUSTRY DESIGN AND DEVELOPMENT - MTIDD  </a></li>
+                     <li><a href="#"> MASTER OF HIGHER EDUCATION ADMINISTRATION - MHEA  </a></li>
+                    <li><a href="#"> MASTER OF BUSINESS ADMINISTRATION - MBA  </a></li>
+                    <li><a href="#"> MASTER OF STRATEGIC MANAGEMENT AND LEADERSHIP - MSML  </a></li>
+                     <li><a href="#"> MASTER OF FINANCE AND INVESTMENT - MFI  </a></li>
+                    <li><a href="#"> MASTER OF INTERNATIONAL ECONOMICS AND DEVELOPMENT - MIED  </a></li>
+                </ul>
+            </div>
+
+
+
+
+
+        </div>
+        <div class="faculty">
+            <button class="faculty-btn">COMPUTER ENGINEERING INFORMATICS COMMUNICATION</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#"> MASTER OF SCIENCE CLOUD COMPUTING AND INTERNET OF THINGS-MCC  </a></li>
+                    <li><a href="#">MASTER OF SCIENCE COMPUTER ENGINEERING-MCE  </a></li>
+                    <li><a href="#">MASTER OF SCIENCE COMPUTER SCIENCE-MCS   </a></li>
+
+                     <li><a href="#">MASTER OF SCIENCE CYBERSECURITY-MCY   </a></li>
+                    <li><a href="#">MASTER OF SCIENCE DATA SCIENCE AND INFORMATICS-MDS   </a></li>
+                     <li><a href="#">  MASTER OF SCIENCE COMPUTER HARDWARE DEVELOPMENT-MHD </a></li>
+                    <li><a href="#"> MASTER OF SCIENCE INDUSTRIAL ELECTRONICS TECHNOLOGY-MIE  </a></li>
+                    <li><a href="#"> MASTER OF SCIENCE INFORMATION SCIENCE AND KNOWLEDGE MANAGEMENT-MIS   </a></li>
+                     <li><a href="#">MASTER OF SCIENCE INFORMATION TECHNOLOGY AUDIT-MIT   </a></li>
+                    <li><a href="#"> MASTER OF SCIENCE MOBILE AND WIRELESS COMMUNICATIONS-MMW  </a></li>
+                     <li><a href="#">MASTER OF SCIENCE NETWORK ENGINEERING-MNE   </a></li>
+                    <li><a href="#"> MASTER OF SCIENCE COMPUTER SOFTWARE DEVELOPMENT-MSD  </a></li>
+                     <li><a href="#"> MASTER OF SCIENCE TELECOMMUNICATIONS ENGINEERING-MTE  </a></li>
+                      <li><a href="#"> POSTGRADUATE DIPLOMA INFORMATION SCIENCE AND KNOWLEDGE MANAGEMENT-PIS  </a></li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="faculty">
+            <button class="faculty-btn">MEDICINE & HEALTH SCIENCES</button>
+            <div class="degree-programs">
+                <ul>
+                   <li><a href="#"> MSc Clinical Pharmacology  </a></li>
+
+<li><a href="#">MSc Biomedical Engineering   </a></li>
+<li><a href="#">  MSc Medical Analytics and Informatics </a></li>
+
+<li><a href="#">MSc Haematology    </a></li>
+<li><a href="#">MSc Immunology  </a></li>
+
+<li><a href="#"> MSc Forensic Medicine  </a></li>
+<li><a href="#"> MSc Human Genetics and Biotechnology  </a></li>
+<p>MSc Public Health Health (with options in:)</p>
+<li><a href="#">1.  Health Care Management and Human
+Capital Deveopment   </a></li>
+<li><a href="#"> 2. Human Economics and Financing   </a></li>
+
+<li><a href="#">  3. Global Health  </a></li>
+<li><a href="#"> 4. Maternal
+Child Health   </a></li>
+
+<li><a href="#"> 5. Policy   </a></li>
+<li><a href="#"> 6. Leadership and Governance   </a></li>
+
+<li><a href="#">7. Environmental Health:   </a></li>
+<li><a href="#"> 8. Sports Medicine  </a></li>
+
+<li><a href="#"> 9. Monitoring and Evaluation of Public Health Interventions   </a></li>
+<li><a href="#">MMed Occupational Medicine   </a></li>
+
+<li><a href="#">MMed Emergency Medicine   </a></li>
+<li><a href="#">MMed Neuro-Psychology   </a></li>
+
+<li><a href="#">   </a></li>
+
+<li><a href="#">   </a></li>
+
+<li><a href="#">   </a></li>
+
+<li><a href="#">   </a></li>
+
+<li><a href="#">   </a></li>
+
+<li><a href="#">   </a></li>
+
+<li><a href="#">   </a></li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="faculty">
+            <button class="faculty-btn">EDUCATION</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#"> Master of Education Music Production - MEMP  </a></li>
+
+                    <li><a href="#">Master of Education Sport Science Education  (MESSP)   </a></li>
+
+                    <li><a href="#"> Master of Education Art and Design Education - MEAD  </a></li>
+<li><a href="#">Master of Education Design and Technology Production Systems - MEDTPS   </a></li>
+<li><a href="#">  Masters of Science Early Childhood Development  and Social Practice - MScECDSP </a></li>
+<li><a href="#"> Master of Education  Primary Education  - MEDPED  </a></li>
+<li><a href="#">  Master of Education Assistive Technologies Development and Production - MEATDP </a></li>
+<li><a href="#">  Master of Education Transformative Curriculum Theory and Practice  - MECIMP </a></li>
+<li><a href="#"> Master of Education Inclusive Education - MEIE  </a></li>
+<li><a href="#"> Master of Educational Foundations Heritage and Learning   (MEFHL)  </a></li>
+<li><a href="#"> Master of Science Clinical Educational Psychology - MSCEP  </a></li>
+<li><a href="#"> Postgraduate Diploma in Education Instructional Systems Design and Practice  - PGDPEID  </a></li>
+<li><a href="#"> Master of Education Multi-lingual Education - MEME  </a></li>
+<li><a href="#"> Master of Education Language Development and Technology - MELDT  </a></li>
+<li><a href="#">Master of Education Educational Leadership and Ethics - MELE   </a></li>
+<li><a href="#">Master of Education Higher and Tertiary Education Systems  - MEHTES   </a></li>
+
+<li><a href="#"> Master of Science Technology and Innovation Education - MSTIE  </a></li>
+
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="faculty">
+            <button class="faculty-btn">ENGINEERING AND
+THE BUILT
+ENVIRONMENT</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#">Master of Science in Communication Engineering - MSCOMMENG   </a></li>
+
+<li><a href="#">Master of Science in Electrical Power - MSCMEPE   </a></li>
+
+<li><a href="#">Master of Science Advanced Mineral Processing and Extractive Metallurgy - MMET   </a></li>
+
+<li><a href="#">Master of Science Mining Engineering - MMIN   </a></li>
+<li><a href="#"> Master of Science Degree in Structural Engineering  - MSSTE  </a></li>
+
+<li><a href="#"> Master of Science Degree in Quantity Surveying - MSQUS  </a></li>
+
+<li><a href="#"> Master of Science Degree in Geotechnical Engineering  - MSGTE  </a></li>
+
+<li><a href="#"> Master of Science Degree in Highway and Transportation Engineering  - MSHTE  </a></li>
+<li><a href="#"> Master of Science Degree In Integrated Water Resources Management - MSIWM  </a></li>
+
+<li><a href="#">Master of Science Degree in Water Resources Engineering and Infrastructure
+Management  - MSWRE   </a></li>
+
+<li><a href="#"> Master of Science Degree in Sanitation and Wastewater Management - MSSWM  </a></li>
+
+<li><a href="#"> MSc Manufacturing Systems Engineering - MSE  </a></li>
+<li><a href="#"> MSc Mechatronics and Artificial Intelligence  - MECHART  </a></li>
+
+<li><a href="#"> Master of Science  in Renewable Energy Engineering - MREE  </a></li>
+
+<li><a href="#"> Master of Science in Architecture and Heritage Conservation - MAHC  </a></li>
+
+<li><a href="#">Masters of Science in Spatial Planning Systems - MSPS   </a></li>
+<li><a href="#"> Masters in Real Estate Management - MREM  </a></li>
+
+<li><a href="#">Master of Science in Transport Planning and Logistics Degree - MTPL   </a></li>
+
+<li><a href="#">Joint Master of Science Degree in Sustainable Urban Planning and Development -
+MSUPD   </a></li>
+
+<li><a href="#">Master of Science Geomatics Engineering Degree  - MGE   </a></li>
+<li><a href="#">  Postgraduate Diploma in Land and Geographic Information Science - PDLGIS </a></li>
+
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="faculty">
+            <button class="faculty-btn">LAW</button>
+            <div class="degree-programs">
+                <ul>
+                   <li><a href="#"> Masters in Women's Law / Masters in Women Socio-Legal Studies  </a></li>
+<li><a href="#">Master of Laws in Commercial Law   </a></li>
+
+<li><a href="#">Master of Laws in International Law   </a></li>
+<li><a href="#"> Master of Laws in Land and Resource Management Law  </a></li>
+
+<li><a href="#">Master of Laws in Intellectual Property and Technology Law   </a></li>
+<li><a href="#"> Master of Laws in Constitutional and Electoral Law  </a></li>
+<li><a href="#">  Master of Laws in Family and Child Law </a></li>
+
+<li><a href="#"> Master of Laws in Criminal Law  </a></li>
+
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="faculty">
+            <button class="faculty-btn">SCIENCE</button>
+            <div class="degree-programs">
+                <ul>
+                    <p>BSc Honours Biotechnology and Biochemistry (with options in :)</p>
+                    <li><a href="#">A:  Biotechnology and Molecular Biology-HBCBMB</a></li>
+                    <li><a href="#">B: Clinical Biochemistry and Toxicology;-HBCCBT</a></li>
+                    <li><a href="#">C: Genetics and Bioengineering;-HBCGBE</a></li>
+                    <li><a href="#">D: Immunology and Microbiology;-HBCBIM</a></li>
+                    <li><a href="#">E: Industrial and Environmental Microbiology;</a></li>
+                     <li><a href="#">F:  Plant Biochemistry and Medicinal Chemistry-HBCBPBMC</a></li>
+                      <li><a href="#">BSc Honours Biological Sciences-BZHSC</a></li>
+                       <li><a href="#">BSc Honours Forestry Rangeland and Wildlife Ecology-HFRWE</a></li>
+                        <li><a href="#">BSc Honours Biodiversity and Heritage Conservation-HBHC</a></li>
+                         <li><a href="#">BSc Honours Pollution and Environmental Chemistry - HPEC</a></li>
+                          <li><a href="#">BSc Honours Aquatic Science and Ecology-HASE</a></li>
+                          <p> BSc Honours Forensic Science  - HFSSC With specializations in either:</p>
+                           <li><a href="#">1.Forensic Biology and Forensic Biochemistry; </a></li>
+                            <li><a href="#">2.Forensic Biology and Forensic Chemistry; </a></li>
+                             <li><a href="#">3.Forensic Biochemistry and Forensic Chemistry</a></li>
+                              <li><a href="#">4.Forensic Physics and Forensic Chemistry</a></li>
+                               <li><a href="#">BSc Honours Industrial Chemistry-HICH</a></li>
+                                <li><a href="#">BSc Honours Pharmaceutical Chemistry-HPHC</a></li>
+                                 <li><a href="#">BSc Honours Geological Sciences- HGL</a></li>
+                                 <li><a href="#">BSc Honours Petroleum Chemistry and Technology - HPCT</a></li>
+                                 <li><a href="#">BSc Honours Geographical Information Science and Earth Observation - HGISEO</a></li>
+                                 <li><a href="#">BSc Honours Geospatial Intelligence - HGISINT</a></li>
+                                 <li><a href="#">BSc Honours Mathematics and Computational Science - MCH</a></li>
+                                  <li><a href="#">BSc Honours Actuarial Science - HASC</a></li>
+                                   <li><a href="#">	BSc Honours Financial Mathematics - HFM</a></li>
+                                    <li><a href="#">BSc Honours Data Science and Systems - HDSC</a></li>
+                                     <li><a href="#">BSc Applied Statistics - HASTS</a></li>
+                                     <li><a href="#">BSc Honours Nutrition and Dietetics- HND</a></li>
+                                     <li><a href="#">BSc Honours Food Science and Technology - HFST</a></li>
+                                     <li><a href="#">BSc Honours Space Science and Technology - HSST</a></li>
+                                     <li><a href="#">BSc Honours Climate Science and Meteorology - HMCS</a></li>
+                                     <li><a href="#">BSc Honours Industrial Physics - HIPH</a></li>
+                                      <li><a href="#">BSc Digital Disease Surveillance and Environmental Health-HDDSEH</a></li>
+                                       <li><a href="#">BSc Geography and Landscape Ecology-HGLE</a></li>
+                                        <li><a href="#">BSc Honours Materials Science - HMS</a></li>
+                                         <li><a href="#">BSc Honours Medical Physics - HMPH</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="faculty">
+            <button class="faculty-btn">SOCIAL AND
+BEHAVIOURAL
+SCIENCES</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#">BSc Honours Government and Public Management-GPM</a></li>
+                    <li><a href="#">BSc Honours Political Science and Diplomacy-POSD</a></li>
+                    <li><a href="#">BSc Honours Social Innovation and Community Development-BSCID</a></li>
+                    <li><a href="#">BSc Honours Smart Technology Applications and Community
+Development-BSTACD</a></li>
+                    <li><a href="#">BSc Honours Industrial Sociology-HISO</a></li>
+                    <li><a href="#">BSc Honours Urbanisation and Social Amenities Development-HUD</a></li>
+                    <li><a href="#">BSc Honours Anthropology and Cultural Heritage -HACH</a></li>
+                      <li><a href="#">BSc Honours Criminology and Society-HCS</a></li>
+                        <li><a href="#">BSc Honours Community Education and Lifelong Learning-BCLL</a></li>
+                          <li><a href="#">BSc Honours Human Settlement Spatiality and Mobility-HSSM</a></li>
+                            <li><a href="#">BSc Honours Population Science and Applied Demography-HPSAD</a></li>
+                              <li><a href="#">BSc Honours Organisational and Industrial Psychology-HIOP</a></li>
+                                <li><a href="#">BSc Honours Child Development and Psychology-HCDP</a></li>
+                                  <li><a href="#">BSc Honours Developmental Psychology-HDP</a></li>
+                                    <li><a href="#">BSc Honours Forensic Psychology and Criminology-HFPC</a></li>
+                                      <li><a href="#">BSc Honours Veterinary Science Technology-HVST</a></li>
+                                        <li><a href="#">BSc Honours  Veterinary Science Therapeutics-HVSP</a></li>
+                                          <li><a href="#">BSc Honours Veterinary Science- BVSc</a></li>
+                                            <li><a href="#">BSc Transport Systems and Development-HTSD</a></li>
+                                            <li><a href="#">BSc Honours Social Work-HSW</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="faculty">
+            <button class="faculty-btn"> Vet Sciences</button>
+            <div class="degree-programs">
+                <ul>
+                    <li><a href="#">BSc Honours  Veterinary Bioengineering-HVSB</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+           
+
+
+
+        
+
+        
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+     <div  class="owner" > 
+<!-- <div  class="bottdiv">
+<img src="pictures\adult-doctor-girl-healthcare.jpg" alt="doctor"  height="100%" width="100%">
+</div> -->
+
+<br>
+<img src="pictures\adult-doctor-girl-healthcare.jpg" alt="doctor"  height="100%" width="100%">
+<br>
+  <div class="image-container">
+    <img id="myImage" class="magicimg" src="pictures\adult-biology-chemical-chemist.jpg" alt="Dropdown Image"  style="display: none;">
+    <br>
+    <img id="myImage2" class="magicimg" src="pictures\adult-biology-chemical-chemist.jpg" alt="Dropdown Image"  style="display: none;">
+   </div>
+   <br>
+</div>
+
+</div>
+
+<script>
+  function toggleImage() {
+    const image = document.getElementById("myImage");
+    if (image.style.display === "none") {
+      image.style.display = "block";
+    } else {
+      image.style.display = "none";
+    }
+  }
+
+
+  function toggleImage2() {
+    const image = document.getElementById("myImage2");
+    if (image.style.display === "none") {
+      image.style.display = "block";
+    } else {
+      image.style.display = "none";
+    }
+  }
+
+</script>
+
+
+
+    <script>
+        const facultyBtns = document.querySelectorAll('.faculty-btn');
+        facultyBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const degreePrograms = btn.nextElementSibling;
+                degreePrograms.classList.toggle('show');
+            });
+        });
+    </script>
+
+
+
+
+
+<!-- <script>
+    const dropdownButtons= document.querySelectorAll('.faculty-btn');
+    dropdownButtons.forEach(button => {
+        button.addEventListener('click', () => {
+        const degreePrograms = button.nextElementSibling;
+        const isOpen = degreePrograms.classList.contains('show')
+
+
+        document.querySelectorAll('degree-programs').forEach(content =>{
+            content.classList.remove('show');
+        });
+
+        if(!isOpen){
+            degreePrograms.classList.add('show');
+        }
+        });
+    });
+
+    // closing dropdowns when cliking outside
+
+    document.addEventListener('click',event=>{
+        if(!event.target.closest('.faculty')){
+            document.querySelectorAll('degree-programs').forEach(content=>{
+                content.classList.remove('show');
+            });
+        }
+    });
+</script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="footer-container" style="background-color: red;">
+        <div class="footer-column" style="background-color: greenyellow;">
+            <h3>About Us</h3>
+            <p style="text-align:start;"><b style="font-size: 30px;">Gready</b> is a platform for online Readers,those who want to get tertiary (University) past exam papers for preparing on their approaching exams.  </p>
+        </div>
+         <div class="footer-column">
+        </div>
+       
+
+
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> 188 Stoneridge Park II, Harare, Zimbabwe</li>
+                <li><i class="fas fa-phone"></i> +263 777 536 989</li>
+                <li><i class="fas fa-envelope"></i> <a href="https://gmail/kofiephram@gmail.com">kofiephram@gmail.com</a></li>
+            </ul>
+        </div>
+
+         <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul style="text-decoration: none;list-style: none;">
+                <li><a href="#top">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/service.html">Services</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                
+            </ul>
+        </div>
+
+
+        <div class="footlink">
+            <h3 >Follow Us On</h3>
+            <ul class="social-media" style="background-color: black;">
+                <li><a href="https://facebook.com/kofiephram@gmail.com" target="_blank"><i class="fab fa-facebook-f"></i>
+                    <img src="pictures\circle-facebook_-128.png" alt="Man in Suit" height="22px" width="25px"></a></li>
+
+                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i>
+                    <img src="pictures\twitter-128.png" alt="Man in Suit"  height="22px" width="25px"></a></li>
+
+                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i>
+                    <img src="pictures\1_Instagram_colored_svg_1-128.png" alt="Man in Suit" height="22px" width="25px"></a></li>
+
+                <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i>
+                    <img src="pictures\logo_brand_brands_logos_playstore_google-128.png" alt="Man in Suit"  height="22px" width="25px"></a></li>
+
+            </ul>
+        </div>
+
+
+    </div>
+    <div class="copyright">
+        <p>&copy; 2026 Adlacts. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+
+
+</body>
+</html>
