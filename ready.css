@@ -523,7 +523,6 @@ li {
     width: 100%;
     text-align: center;
     margin-bottom: 40px;
-    background-color: red;
 }
 
 .footlink h3 {
@@ -543,7 +542,6 @@ li {
     padding-right: 5px;
     gap: 10px;
     justify-content: center;
-    background-color: maroon;
     flex-wrap: wrap;
 }
 
